@@ -10,7 +10,7 @@ echo "source ~/.kubecolor" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-They just copy .kubecolor to your home directory and source it in your bash_profile.
+These commands simply copy **.kubecolor** to your home directory and source it in your bash_profile.
 
 Now you can invoke kubecolor with the `events` command.
 
