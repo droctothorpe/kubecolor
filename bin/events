@@ -1,3 +1,5 @@
+#!/bin/bash
+
 events() {
     kubectl get events --all-namespaces --watch \
     -o 'go-template={{.lastTimestamp}} ^ {{.involvedObject.kind}} ^ {{.message}} ^ ({{.involvedObject.name}}){{"\n"}}' \
@@ -17,3 +19,5 @@ events() {
     }
     1'
 }
+
+events
