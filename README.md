@@ -4,7 +4,8 @@ Kubecolor is a `bash` function that colorizes the output of `kubectl get events 
 
 ## Installation
 
-### Bash / Fish
+### Bash / Fish / Manual
+If you're using Bash or Fish:
 
 ```bash
 mkdir ~/.kubecolor
