@@ -13,7 +13,7 @@ events() {
     -v cyan=$(tput setaf 6) \
     -v white=$(tput setaf 7) \
     '{
-        $1=cyan $1
+        $1=blue $1
         $2=green $2
         $3=white $3
     }
