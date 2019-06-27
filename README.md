@@ -12,7 +12,7 @@ mkdir ~/.kubecolor
 cd $_
 git clone https://github.com/droctothorpe/kubecolor.git 
 echo "source ~/.kubecolor/kubecolor/kubecolor.bash" >> ~/.bash_profile # (or ~/.bashrc)
-source ~/.bash_profile
+source ~/.bash_profile # (or ~/.bashrc)
 ```
 
 ### Antigen
