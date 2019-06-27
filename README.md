@@ -10,7 +10,7 @@ Kubecolor is a `bash` function that colorizes the output of `kubectl get events 
 mkdir ~/.kubecolor
 cd $_
 git clone https://github.com/droctothorpe/kubecolor.git 
-echo "source ~/.kubecolor/bin/kubecolor.sh" >> ~/.bash_profile # (or ~/.bashrc)
+echo "source ~/.kubecolor/bin/events" >> ~/.bash_profile # (or ~/.bashrc)
 ```
 
 ### Antigen
