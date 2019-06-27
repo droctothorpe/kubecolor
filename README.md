@@ -1,17 +1,17 @@
 # Kubecolor
 
-Kubecolor is a `bash` function that colorizes the output of `kubectl get events -w`
+Kubecolor is a `bash` function that colorizes the output of `kubectl get events -w`.
 
-## Installing
+## Installation
 
-### Bash / Manual Installation
+### Bash / Fish
 
-Nothing here requires you to use ZSH as your shell or a ZSH framework,  that's just a convenient distribution method.
-
-If you aren't using any ZSH frameworks, or if you're using `bash`, `fish` or another shell, do the following steps:
-
-1. `git clone` this repository
-2. Add `cloneDirectory/bin` to your `$PATH` if you aren't using `bash`, or add `source /path/to/checkoutDirectory/kubecolor.bash` to your `.bashrc` if you are.
+```bash
+mkdir ~/.kubecolor
+cd $_
+git clone https://github.com/droctothorpe/kubecolor.git 
+echo "source ~/.kubecolor/bin/kubecolor.sh" >> ~/.bash_profile # (or ~/.bashrc)
+```
 
 ### Antigen
 
@@ -20,7 +20,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen):
 1. Add `antigen bundle droctothorpe/kubecolor.git` to your `.zshrc` where you've listed your other plugins.
 2. Close and reopen your Terminal/iTerm window to **refresh context** and use the plugin. Alternatively, you can run `antigen bundle droctothorpe/kubecolor.git` in a running shell to have `antigen` load the new plugin.
 
-### zgen
+### Zgen
 
 If you're using [zgen](https://github.com/tarjoilija/zgen):
 
